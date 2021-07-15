@@ -15,7 +15,7 @@ struct ContentView: View {
             Button(action: talking) {
                 HStack {
                     Text("Start talking!")
-                    Text(Image(systemName: "plus"))
+                    Text(Image(systemName: "mic"))
                 }
             }
             .buttonStyle(YellowButton())
