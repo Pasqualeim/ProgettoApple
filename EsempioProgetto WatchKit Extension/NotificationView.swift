@@ -2,15 +2,14 @@
 //  NotificationView.swift
 //  EsempioProgetto WatchKit Extension
 //
-//  Created by Pasquale Ercolino on 13/07/21.
+//  Created by Pasquale Ercolino on 15/07/21.
 //
 
 import SwiftUI
 
 struct NotificationView: View {
     var body: some View {
-        Text("Hello, World!")
-//        Added comment by Shadypio
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 

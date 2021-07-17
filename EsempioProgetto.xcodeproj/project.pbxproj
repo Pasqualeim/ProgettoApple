@@ -13,12 +13,13 @@
 		5679F0C4269DD7F300128228 /* EsempioProgettoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5679F0C3269DD7F300128228 /* EsempioProgettoApp.swift */; };
 		5679F0C6269DD7F300128228 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5679F0C5269DD7F300128228 /* ContentView.swift */; };
 		5679F0C8269DD7F300128228 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5679F0C7269DD7F300128228 /* NotificationController.swift */; };
-		5679F0CA269DD7F300128228 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5679F0C9269DD7F300128228 /* NotificationView.swift */; };
 		5679F0CC269DD7F300128228 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5679F0CB269DD7F300128228 /* ComplicationController.swift */; };
 		5679F0CE269DD7F400128228 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5679F0CD269DD7F400128228 /* Assets.xcassets */; };
 		5679F0D1269DD7F400128228 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5679F0D0269DD7F400128228 /* Preview Assets.xcassets */; };
 		5679F0DD269DD7F400128228 /* EsempioProgettoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5679F0DC269DD7F400128228 /* EsempioProgettoTests.swift */; };
 		5679F0E8269DD7F400128228 /* EsempioProgettoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5679F0E7269DD7F400128228 /* EsempioProgettoUITests.swift */; };
+		5679F10326A0CF5200128228 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5679F10226A0CF5200128228 /* StartView.swift */; };
+		5679F10526A0D03A00128228 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5679F10426A0D03A00128228 /* NotificationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,7 +87,6 @@
 		5679F0C3269DD7F300128228 /* EsempioProgettoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsempioProgettoApp.swift; sourceTree = "<group>"; };
 		5679F0C5269DD7F300128228 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5679F0C7269DD7F300128228 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		5679F0C9269DD7F300128228 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		5679F0CB269DD7F300128228 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		5679F0CD269DD7F400128228 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5679F0D0269DD7F400128228 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -98,6 +98,8 @@
 		5679F0E3269DD7F400128228 /* EsempioProgettoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EsempioProgettoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5679F0E7269DD7F400128228 /* EsempioProgettoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsempioProgettoUITests.swift; sourceTree = "<group>"; };
 		5679F0E9269DD7F400128228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5679F10226A0CF5200128228 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		5679F10426A0D03A00128228 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,7 +165,7 @@
 				5679F0C3269DD7F300128228 /* EsempioProgettoApp.swift */,
 				5679F0FF269F17D100128228 /* View */,
 				5679F0C7269DD7F300128228 /* NotificationController.swift */,
-				5679F0C9269DD7F300128228 /* NotificationView.swift */,
+				5679F10426A0D03A00128228 /* NotificationView.swift */,
 				5679F0CB269DD7F300128228 /* ComplicationController.swift */,
 				5679F0CD269DD7F400128228 /* Assets.xcassets */,
 				5679F0D2269DD7F400128228 /* Info.plist */,
@@ -203,6 +205,7 @@
 			isa = PBXGroup;
 			children = (
 				5679F0C5269DD7F300128228 /* ContentView.swift */,
+				5679F10226A0CF5200128228 /* StartView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -396,8 +399,9 @@
 				5679F0C8269DD7F300128228 /* NotificationController.swift in Sources */,
 				5679F0C6269DD7F300128228 /* ContentView.swift in Sources */,
 				5679F0CC269DD7F300128228 /* ComplicationController.swift in Sources */,
+				5679F10326A0CF5200128228 /* StartView.swift in Sources */,
 				5679F0C4269DD7F300128228 /* EsempioProgettoApp.swift in Sources */,
-				5679F0CA269DD7F300128228 /* NotificationView.swift in Sources */,
+				5679F10526A0D03A00128228 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
