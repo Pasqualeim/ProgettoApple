@@ -14,6 +14,7 @@ struct ContentView: View {
             Text("Press the button to listen!")
                 .multilineTextAlignment(.center)
                 .padding(/*@START_MENU_TOKEN@*/.bottom, 5.0/*@END_MENU_TOKEN@*/)
+            
             Button(action: talking) {
                 HStack {
 //                    Text("Start talking")
@@ -23,10 +24,8 @@ struct ContentView: View {
                 }
             }
             .buttonStyle(YellowButton())
-            
         }
-//        .navigationBarHidden(false)
-        .navigationTitle("Listen")
+        .navigationTitle("Listen").accentColor(.yellow)
     }
 }
 

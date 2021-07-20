@@ -34,6 +34,7 @@
       "subtype" : "38mm"
     },
     {
+      "filename" : "LogoAppAppleFor40mm.png",
       "idiom" : "watch",
       "role" : "appLauncher",
       "scale" : "2x",
